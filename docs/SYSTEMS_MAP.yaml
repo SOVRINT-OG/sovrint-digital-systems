@@ -1,0 +1,42 @@
+system: SOVRINT Digital Systems
+status: architecture_reference
+author: Katrina Pietroniro
+source: MASTER_RUNTIME_TOPOLOGY_OMEGA
+deployment_claim: none
+runtime_flow:
+  - INGRESS
+  - OBSERVE
+  - MEASURE
+  - VERIFY
+  - CLASSIFY
+  - GOVERN
+  - CORRECT
+  - RECORD
+  - EMIT
+  - VALIDATE
+  - VISUALIZE
+  - PRESERVE
+required_component_record:
+  - component_identifier
+  - layer
+  - function
+  - inputs
+  - outputs
+  - dependencies
+  - state_model
+  - failure_mode
+  - recovery_path
+  - telemetry_emitted
+  - governance_boundary
+  - security_class
+  - canonical_status
+  - repository_and_path
+  - version
+  - timestamp
+evidence_classes:
+  - observed
+  - synthetic
+  - simulated
+  - empirical
+  - unknown
+promotion_rule: "Runtime execution does not create canonical status; provenance, validation, classification, and explicit authority are required."
