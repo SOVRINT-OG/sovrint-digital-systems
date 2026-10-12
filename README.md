@@ -26,3 +26,8 @@ The flow is a reference architecture. Each system record must name the implement
 ## Evidence boundary
 
 Separate observed, synthetic, simulated, and empirical evidence. A documented component is not proof of a deployed runtime; a test result is limited to its declared fixtures and conditions. Cite the source repository and version when using these materials.
+
+
+## Research status and evidence
+
+See [RESEARCH_STATUS.yaml](./RESEARCH_STATUS.yaml) for the version, release, DOI, evidence class, validation state, source-register guidance, and rights metadata. Update that record when those facts change. Cite sources beside claims that depend on them; citation alone does not grant reuse permission.
